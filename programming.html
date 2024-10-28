@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming page | welcome!</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        overflow: hidden; /* Prevents scrolling */
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1E90FF;
+        color: white;
+        display: flex;
+      }
+
+      h1 {
+        font-size: 2rem;
+        letter-spacing: 10px;
+        position: absolute;
+        top: 20px; /* Position it 20px from the top */
+        left: 20px; /* Position it 50px from the left */
+        text-shadow: 2px 2px black;
+      }
+
+      aside {
+        position: absolute;
+        left: 15px; /* Closer to the H1 */
+        top: 150px; /* Move it down a bit */
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        font-size: 1.5rem;
+        margin-bottom: 60px; /* Space between list items */
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-shadow: 2px 2px black;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .back-link {
+        position: absolute;
+        bottom: 20px; /* Position it 20px from the bottom */
+        right: 20px; /* Position it 20px from the right */
+        font-size: 1.2rem; /* Adjust font size as needed */
+        text-decoration: none;
+        color: white;
+        text-shadow: 2px 2px black;
+      }
+      .back-link:hover{
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="elite"><i class="fa-brands fa-python"></i>
+        welcome to the Programming page!
+        <i class="fa-brands fa-python"></i>
+    </h1>
+    <aside class="programming-nav">
+      <nav>
+        <ul class="elite">
+          <li><a href="#">my projects</a></li>
+          <li><a href="#">cool things to do!</a></li>
+          <li><a href="#">tips and trick</a></li>
+          
+        </ul>
+      </nav>
+    </aside>
+    <a class="back-link elite" href="index.html">back to main page</a>
+    <script src="https://kit.fontawesome.com/4037363b36.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+.elite {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 4rem;
+      letter-spacing: 5px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav ul li {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    nav ul li {
+      font-size: 1rem;
+    }
+  }
+
+.frusci, .tetsu, .tre{
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.guitar{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+img{
+    margin: 20px;
+    right: 20px;
+}
+p{
+    text-align: justify;
+    line-height: 1.6;
+}
+  

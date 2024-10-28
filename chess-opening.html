@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Famous Chess Openings</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        font-family: "Special Elite", system-ui;
+        margin: 10px;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .section {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+      .section img {
+        max-width: 200px;
+        border-radius: 10px;
+      }
+      .section .content {
+        flex: 1;
+      }
+      .section h2 {
+        margin-bottom: 10px;
+        margin: 20px;
+      }
+      .section p {
+        text-align: justify;
+        margin: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        font-family: "Special Elite", system-ui;
+      }
+      p .upper {
+        margin: 20px;
+        right: 10px;
+        margin: 20px;
+      }
+      body {
+        background-color: grey;
+        color: #fff;
+        line-height: 1.6;
+        letter-spacing: 2px;
+      }
+      .title {
+        text-shadow: 1px 1px black;
+      }
+      .margin-20 {
+        margin: 20px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .justify {
+        text-align: justify;
+      }
+      .back-link {
+        position: fixed;
+        bottom: 20px; /* Position it 20px from the bottom */
+        right: 20px; /* Position it 20px from the right */
+        font-size: 1.2rem; /* Adjust font size as needed */
+        text-decoration: none;
+        color: white;
+        text-shadow: 2px 2px black;
+      }
+      .quote {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin: 25px 0; /* Increased margin for more spacing */
+        padding: 20px; /* Increased padding for a more spacious feel */
+      }
+      .quote p {
+        margin: 0;
+      }
+      .image-container img {
+        width: 200px; /* Fixed width */
+        height: 200px; /* Fixed height */
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Famous Chess Openings</h1>
+
+      <div class="opening">
+        <div class="opening-title">Ruy-Lopez (Spanish Opening)</div>
+        <p class="moves">Moves: 1.e4 e5 2.Nf3 Nc6 3.Bb5</p>
+        <div class="image-container">
+          <img src="images/ruy-lopez.png" alt="Ruy-Lopez Opening" />
+        </div>
+        <p class="explanation">
+          Named after the Spanish priest Ruy López de Segura, this opening aims
+          to control the center with pawns and pieces while applying indirect
+          pressure on Black’s e5 pawn. It often leads to a strategic and
+          flexible middlegame, giving White strong control over the board.
+        </p>
+      </div>
+
+      <div class="opening">
+        <div class="opening-title">Sicilian Defense</div>
+        <p class="moves">Moves: 1.e4 c5</p>
+        <div class="image-container">
+          <img src="images/sicilian-defense.png" alt="Sicilian Defense" />
+        </div>
+        <p class="explanation">
+          This defense is a popular response to 1.e4, aiming to counter White’s
+          central control. By opening with c5, Black establishes an asymmetrical
+          pawn structure, often leading to sharp, aggressive positions and
+          counterattacking chances. It is known for leading to rich tactical
+          battles, especially in variations like the Open Sicilian.
+        </p>
+      </div>
+
+      <div class="opening">
+        <div class="opening-title">French Defense</div>
+        <p class="moves">Moves: 1.e4 e6</p>
+        <div class="image-container">
+          <img src="images/prancis.jpg" alt="French Defense" />
+        </div>
+        <p class="explanation">
+          This solid defense focuses on a pawn structure where Black often plays
+          d5 to challenge White’s central e4 pawn. The French Defense can lead
+          to closed positions with pawn chains, requiring a careful
+          understanding of pawn breaks and piece maneuvering. It’s known for
+          creating unbalanced positions that can offer both sides counterplay.
+        </p>
+      </div>
+
+      <div class="opening">
+        <div class="opening-title">Caro-Kann Defense</div>
+        <p class="moves">Moves: 1.e4 c6</p>
+        <div class="image-container">
+          <img src="images/caro-kann.png" alt="Caro-Kann Defense" />
+        </div>
+        <p class="explanation">
+          The Caro-Kann is a solid, positional defense that aims to challenge
+          White's e4 pawn without risking immediate weaknesses. Black usually
+          follows up with d5 to establish a strong pawn center. This opening
+          often leads to slower, more positional games, and is favored by
+          players who prefer a solid and resilient defense.
+        </p>
+      </div>
+
+      <div class="opening">
+        <div class="opening-title">Queen’s Gambit</div>
+        <p class="moves">Moves: 1.d4 d5 2.c4</p>
+        <div class="image-container">
+          <img src="images/queens-gambit.png" alt="Queen's Gambit" />
+        </div>
+        <p class="explanation">
+          A classic opening where White sacrifices a pawn temporarily to gain
+          control of the center. If Black accepts the gambit (2...dxc4), White
+          typically gains strong central control and development. The Queen’s
+          Gambit can lead to both quiet and aggressive lines, and it’s renowned
+          for promoting strategic play with long-term pressure on Black's
+          position.
+        </p>
+      </div>
+    </div>
+    <a class="back-link elite" href="chess.html">back to chess page</a>
+  </body>
+</html>
